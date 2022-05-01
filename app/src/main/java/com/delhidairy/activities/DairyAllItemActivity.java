@@ -33,7 +33,6 @@ public class DairyAllItemActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dairy_all_item);
 
         initViews();
-
         getAllProduct();
     }
 

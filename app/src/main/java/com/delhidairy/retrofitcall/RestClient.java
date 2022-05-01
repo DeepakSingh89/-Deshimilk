@@ -14,6 +14,7 @@ import com.delhidairy.model.usercreate.Createresponse;
 
 import retrofit2.Callback;
 
+
 public class RestClient {
 
     public static void loginUser(LoginRequest loginRequest, Callback<LoginResponse> callback) {

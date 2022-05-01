@@ -97,10 +97,6 @@ public class PaymentAddressSaveActivity extends AppCompatActivity {
             DairyUtils.displayToast(getApplicationContext(), "Please enter valid address!!");
             return;
         }
-
-
-
-
         if (TextUtils.isEmpty(cityname.trim()) || cityname.length() == 0) {
             editTextCity.setError("Please enter valid city!!");
             DairyUtils.displayToast(getApplicationContext(), "Please enter valid city!!");
